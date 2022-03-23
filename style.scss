@@ -1,0 +1,136 @@
+body{
+    background-color: #F8F9FA !important;
+
+    
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url("img/bg-masthead.jpg");
+    width: 100%;
+    height: 110vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .nbr{
+        background: rgba($color: #000000, $alpha: 0);
+        .logo{
+            color: rgb(209, 199, 209);
+        }
+       .a{
+           color: rgb(209, 199, 209);
+       }
+    }
+}
+.nav-item{
+    a{
+    color: rgb(230, 220, 230) !important;
+}
+}
+.gray{
+    font-size: 6.5rem;
+    color: rgb(236, 236, 236);
+    letter-spacing: 15px;
+}
+.h6{
+    font-size: 1.25rem !important;
+    color: rgb(209, 199, 209);
+}
+@media (min-width:992px) {
+    .aa{
+        display: flex !important;
+        justify-content: end !important;
+    }
+}
+@media(max-width:992px) {
+    .nn{
+        background-color: whitesmoke;
+    }
+    .navbar .navbar-expand-lg{
+        .container{
+            margin: 0 !important;
+            padding: 0 !important;
+
+        }
+    } 
+}
+.logo{
+    color: whitesmoke !important;
+    font-weight: 600;
+}
+.nav-link{
+    font-weight: 600;
+    color: white !important;
+}
+@media (max-width:992px) {
+    h1{
+        font-size: 60px !important;
+        letter-spacing: 0px !important;
+        color: whitesmoke !important;
+    }
+    .nav-link{
+        font-weight: 400;
+        color: grey !important;
+    }
+}
+.btn{
+    background-color: #64a19d !important;
+    color: whitesmoke !important ;
+    font-size: 600;
+}
+.hh{
+    font-family: sans-serif;
+}
+@media (max-width:768px) {
+    .bb{
+        font-size: 30px !important;
+    }
+}
+@media (min-width:768px) {
+    .bb{
+        font-size: 40px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .bb{
+        font-size: 50px !important;
+    }
+}
+.xt{
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: 600;
+}
+.bg{
+    background: #000;
+}
+
+.main-1{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url("img/bg-signup.jpg");
+    background-size: contain;
+    background-size: cover;
+}.main-2{
+    width: 100%;
+    min-height: 75vh;
+    background: #000;
+    .line{
+        height: 1px;
+        width: 30px;
+        background-color: rgb(163, 163, 163);
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .l1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: #212529;
+        margin: 5px;
+        border-radius: 50%;
+    }
+}
+}
